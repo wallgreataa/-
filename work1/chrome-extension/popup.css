@@ -1,0 +1,47 @@
+/* 设置页面背景 */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('imgs/background.png');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* 方框样式 */
+.info-box {
+    padding: 70px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.5); /* 添加半透明背景颜色提高可读性 */
+}
+
+/* 标题和文本样式 */
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* 音频控制样式 */
+audio {
+    margin-top: 12px;
+    width: 80%;
+}
+
+/* LOGO图片样式（减小大小） */
+.info-box img {
+    margin-top: 5px;
+    width: 20%; 
+    height: auto;
+}

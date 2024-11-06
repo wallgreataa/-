@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "mu_mian's Chrome Extension",
+    "version": "1.0",
+    "description": "Haloooooo!.",
+    "author": "2220634014@qq.com",
+    "permissions": ["scripting",
+          "activeTab",
+          "tabs",
+          "notifications",
+          "storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "imgs/icon16.png",
+        "32": "imgs/icon32.png",
+        "48": "imgs/icon48.png",
+        "64": "imgs/icon64.png",
+        "128": "imgs/icon128.png",
+        "256": "imgs/icon256.png"
+      }
+    }
+  }
+  
